@@ -1,0 +1,173 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="KasperskyTestSuit">
+
+    <test name="Security Cloud Windows test"   >
+        <parameter name="product"  value="Security Cloud"/>
+        <parameter name="OS"  value="Windows"/>
+        <classes>
+            <class name="KasperskyMailTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Total Security Windows test"   >-->
+<!--        <parameter name="product"  value="Total Security"/>-->
+<!--        <parameter name="OS"  value="Windows"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Internet Security Security Windows test"   >-->
+<!--        <parameter name="product"  value="Internet Security"/>-->
+<!--        <parameter name="OS"  value="Windows"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Anti-Virus Windows test"   >-->
+<!--        <parameter name="product"  value="Anti-Virus"/>-->
+<!--        <parameter name="OS"  value="Windows"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Secure Connection Windows test"   >-->
+<!--        <parameter name="product"  value="Secure Connection"/>-->
+<!--        <parameter name="OS"  value="Windows"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Password Manager Windows test"   >-->
+<!--        <parameter name="product"  value="Password Manager"/>-->
+<!--        <parameter name="OS"  value="Windows"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Safe Kids Windows test"   >
+        <parameter name="product"  value="Safe Kids"/>
+        <parameter name="OS"  value="Windows"/>
+        <classes>
+            <class name="KasperskyMailTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Security Cloud Mac test"   >-->
+<!--        <parameter name="product"  value="Security Cloud"/>-->
+<!--        <parameter name="OS"  value="Mac"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Internet Security Security Mac test"   >-->
+<!--        <parameter name="product"  value="Internet Security"/>-->
+<!--        <parameter name="OS"  value="Mac"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Secure Connection Mac test"   >-->
+<!--        <parameter name="product"  value="Secure Connection"/>-->
+<!--        <parameter name="OS"  value="Mac"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Password Manager Mac test"   >-->
+<!--        <parameter name="product"  value="Password Manager"/>-->
+<!--        <parameter name="OS"  value="Mac"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Safe Kids Mac test"   >-->
+<!--        <parameter name="product"  value="Safe Kids"/>-->
+<!--        <parameter name="OS"  value="Mac"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Internet Security Security Android test"   >-->
+<!--        <parameter name="product"  value="Internet Security"/>-->
+<!--        <parameter name="OS"  value="Android"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Security Cloud Android test"   >-->
+<!--        <parameter name="product"  value="Security Cloud"/>-->
+<!--        <parameter name="OS"  value="Android"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Secure Connection Android test"   >-->
+<!--        <parameter name="product"  value="Secure Connection"/>-->
+<!--        <parameter name="OS"  value="Android"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Password Manager Android Android test"   >-->
+<!--        <parameter name="product"  value="Password Manager"/>-->
+<!--        <parameter name="OS"  value="Android"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Safe Kids Android test"   >-->
+<!--        <parameter name="product"  value="Safe Kids"/>-->
+<!--        <parameter name="OS"  value="Android"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Security Cloud iOS test"   >
+        <parameter name="product"  value="Security Cloud"/>
+        <parameter name="OS"  value="iOS"/>
+        <classes>
+            <class name="KasperskyMailTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Secure Connection iOS test"   >-->
+<!--        <parameter name="product"  value="Secure Connection"/>-->
+<!--        <parameter name="OS"  value="iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Password Manager Android iOS test"   >-->
+<!--        <parameter name="product"  value="Password Manager"/>-->
+<!--        <parameter name="OS"  value="iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Safe Kids iOS test"   >-->
+<!--        <parameter name="product"  value="Safe Kids"/>-->
+<!--        <parameter name="OS"  value="iOS"/>-->
+<!--        <classes>-->
+<!--            <class name="KasperskyMailTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

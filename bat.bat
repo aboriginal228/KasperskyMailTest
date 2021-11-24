@@ -1,0 +1,1 @@
+java –cp bin;lib/* org.testng.TestNG src/test/resources/testnglocal.xml
